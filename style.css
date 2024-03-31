@@ -1,0 +1,53 @@
+h1{
+    color:green;
+}
+body{
+    /* margin-bottom: 100px; */
+}
+#main{
+    height: 300px;
+    /* margin-bottom: 1000px; */
+    /* padding-bottom: 200px; */
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.sh{
+    /* background-color: blue; */
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    font-size: xx-large;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#square:hover{
+    background-color: red;
+}
+#circle{
+    /* background-color: blue; */
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+#circle:hover{
+    background-color: green;
+}
+#diamond{
+    /* background-color: brown; */
+    rotate: 45deg;
+    translate:20px;
+    margin-top: 60px;
+    margin-left: 30px;
+   
+  
+}
+#diamond:hover{
+    background-color: blue;
+}
